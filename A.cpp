@@ -7,7 +7,7 @@ if you stand still on the escalator and the arrival of the last train before you
 Assume that t is a random variable uniformly distributed between 0 and T. Return the
 probability of catching an earlier train if you choose to walk down the escalator instead
 of standing still on it.
- 
+
 Input :
 
 The first line of the input contains an integer Tc denoting the number of test cases.
@@ -57,7 +57,7 @@ int main()
 	{
 		double Ve, Vy, L, T;
 		cin>>Ve>>Vy>>L>>T;
-		double T1 = L/Ve;
+		double T1 = (double)L/Ve;
 		double T2 = L/(Ve+Vy);
 		double diff = T1 - T2;
 		if(diff >= T)
