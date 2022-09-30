@@ -19,7 +19,7 @@ Vy - your relative velocity with the escalator
 
 L - length of escalator
 
-T - Time Period of Trains
+T - Time Period of Train(s)
 
 Output
 
