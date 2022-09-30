@@ -38,7 +38,6 @@ typedef pair <int, int> pii;
 typedef pair <int, pii> piii;
 typedef vector <int> vi;
 typedef vector < pii > vpii;
-#define DEBUG(x) cerr<<#x<<": "<<x<<endl;
 #define FAST1 ios_base::sync_with_stdio(0)
 #define FAST2 cin.tie(0);cout.tie(0); cerr.tie(0)
 const long double PI = acos(-1.0);
