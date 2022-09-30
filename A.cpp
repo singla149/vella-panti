@@ -48,8 +48,8 @@ const LL MAXN = 100010;
 
 int main()
 {
-	FAST1;
-	FAST2;
+	FASTER1;
+	FASTER2;
 	int T;
 	cin>>T;
 	cout<<fixed;
